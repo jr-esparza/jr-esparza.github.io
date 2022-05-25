@@ -2,7 +2,69 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="3feab8a9-1e99-44a0-a080-7458d806c407" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/startbootstrap-creative-master/dist/index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/startbootstrap-creative-master/.editorconfig" beforeDir="false" afterPath="$PROJECT_DIR$/.editorconfig" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/startbootstrap-creative-master/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/startbootstrap-creative-master/LICENSE" beforeDir="false" afterPath="$PROJECT_DIR$/LICENSE" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/startbootstrap-creative-master/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/startbootstrap-creative-master/dist/assets/favicon.ico" beforeDir="false" afterPath="$PROJECT_DIR$/dist/assets/favicon.ico" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/startbootstrap-creative-master/dist/assets/img/bg-masthead.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/dist/assets/img/bg-masthead.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/startbootstrap-creative-master/dist/assets/img/portfolio/fullsize/1.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/dist/assets/img/portfolio/fullsize/1.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/startbootstrap-creative-master/dist/assets/img/portfolio/fullsize/2.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/dist/assets/img/portfolio/fullsize/2.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/startbootstrap-creative-master/dist/assets/img/portfolio/fullsize/3.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/dist/assets/img/portfolio/fullsize/3.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/startbootstrap-creative-master/dist/assets/img/portfolio/fullsize/4.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/dist/assets/img/portfolio/fullsize/4.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/startbootstrap-creative-master/dist/assets/img/portfolio/fullsize/5.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/dist/assets/img/portfolio/fullsize/5.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/startbootstrap-creative-master/dist/assets/img/portfolio/fullsize/6.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/dist/assets/img/portfolio/fullsize/6.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/startbootstrap-creative-master/dist/assets/img/portfolio/thumbnails/1.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/dist/assets/img/portfolio/thumbnails/1.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/startbootstrap-creative-master/dist/assets/img/portfolio/thumbnails/2.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/dist/assets/img/portfolio/thumbnails/2.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/startbootstrap-creative-master/dist/assets/img/portfolio/thumbnails/3.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/dist/assets/img/portfolio/thumbnails/3.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/startbootstrap-creative-master/dist/assets/img/portfolio/thumbnails/4.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/dist/assets/img/portfolio/thumbnails/4.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/startbootstrap-creative-master/dist/assets/img/portfolio/thumbnails/5.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/dist/assets/img/portfolio/thumbnails/5.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/startbootstrap-creative-master/dist/assets/img/portfolio/thumbnails/6.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/dist/assets/img/portfolio/thumbnails/6.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/startbootstrap-creative-master/dist/css/styles.css" beforeDir="false" afterPath="$PROJECT_DIR$/dist/css/styles.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/startbootstrap-creative-master/dist/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/startbootstrap-creative-master/dist/js/scripts.js" beforeDir="false" afterPath="$PROJECT_DIR$/dist/js/scripts.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/startbootstrap-creative-master/package-lock.json" beforeDir="false" afterPath="$PROJECT_DIR$/package-lock.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/startbootstrap-creative-master/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/package.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/startbootstrap-creative-master/scripts/build-assets.js" beforeDir="false" afterPath="$PROJECT_DIR$/scripts/build-assets.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/startbootstrap-creative-master/scripts/build-pug.js" beforeDir="false" afterPath="$PROJECT_DIR$/scripts/build-pug.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/startbootstrap-creative-master/scripts/build-scripts.js" beforeDir="false" afterPath="$PROJECT_DIR$/scripts/build-scripts.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/startbootstrap-creative-master/scripts/build-scss.js" beforeDir="false" afterPath="$PROJECT_DIR$/scripts/build-scss.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/startbootstrap-creative-master/scripts/clean.js" beforeDir="false" afterPath="$PROJECT_DIR$/scripts/clean.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/startbootstrap-creative-master/scripts/render-assets.js" beforeDir="false" afterPath="$PROJECT_DIR$/scripts/render-assets.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/startbootstrap-creative-master/scripts/render-pug.js" beforeDir="false" afterPath="$PROJECT_DIR$/scripts/render-pug.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/startbootstrap-creative-master/scripts/render-scripts.js" beforeDir="false" afterPath="$PROJECT_DIR$/scripts/render-scripts.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/startbootstrap-creative-master/scripts/render-scss.js" beforeDir="false" afterPath="$PROJECT_DIR$/scripts/render-scss.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/startbootstrap-creative-master/scripts/sb-watch.js" beforeDir="false" afterPath="$PROJECT_DIR$/scripts/sb-watch.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/startbootstrap-creative-master/scripts/start-debug.js" beforeDir="false" afterPath="$PROJECT_DIR$/scripts/start-debug.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/startbootstrap-creative-master/scripts/start.js" beforeDir="false" afterPath="$PROJECT_DIR$/scripts/start.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/startbootstrap-creative-master/src/assets/favicon.ico" beforeDir="false" afterPath="$PROJECT_DIR$/src/assets/favicon.ico" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/startbootstrap-creative-master/src/assets/img/bg-masthead.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/src/assets/img/bg-masthead.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/startbootstrap-creative-master/src/assets/img/portfolio/fullsize/1.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/src/assets/img/portfolio/fullsize/1.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/startbootstrap-creative-master/src/assets/img/portfolio/fullsize/2.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/src/assets/img/portfolio/fullsize/2.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/startbootstrap-creative-master/src/assets/img/portfolio/fullsize/3.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/src/assets/img/portfolio/fullsize/3.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/startbootstrap-creative-master/src/assets/img/portfolio/fullsize/4.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/src/assets/img/portfolio/fullsize/4.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/startbootstrap-creative-master/src/assets/img/portfolio/fullsize/5.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/src/assets/img/portfolio/fullsize/5.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/startbootstrap-creative-master/src/assets/img/portfolio/fullsize/6.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/src/assets/img/portfolio/fullsize/6.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/startbootstrap-creative-master/src/assets/img/portfolio/thumbnails/1.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/src/assets/img/portfolio/thumbnails/1.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/startbootstrap-creative-master/src/assets/img/portfolio/thumbnails/2.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/src/assets/img/portfolio/thumbnails/2.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/startbootstrap-creative-master/src/assets/img/portfolio/thumbnails/3.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/src/assets/img/portfolio/thumbnails/3.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/startbootstrap-creative-master/src/assets/img/portfolio/thumbnails/4.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/src/assets/img/portfolio/thumbnails/4.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/startbootstrap-creative-master/src/assets/img/portfolio/thumbnails/5.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/src/assets/img/portfolio/thumbnails/5.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/startbootstrap-creative-master/src/assets/img/portfolio/thumbnails/6.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/src/assets/img/portfolio/thumbnails/6.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/startbootstrap-creative-master/src/js/scripts.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/js/scripts.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/startbootstrap-creative-master/src/pug/index.pug" beforeDir="false" afterPath="$PROJECT_DIR$/src/pug/index.pug" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/startbootstrap-creative-master/src/scss/_global.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/scss/_global.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/startbootstrap-creative-master/src/scss/_variables.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/scss/_variables.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/startbootstrap-creative-master/src/scss/components/_buttons.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/scss/components/_buttons.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/startbootstrap-creative-master/src/scss/components/_dividers.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/scss/components/_dividers.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/startbootstrap-creative-master/src/scss/components/_navbar.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/scss/components/_navbar.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/startbootstrap-creative-master/src/scss/sections/_masthead.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/scss/sections/_masthead.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/startbootstrap-creative-master/src/scss/sections/_portfolio.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/scss/sections/_portfolio.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/startbootstrap-creative-master/src/scss/styles.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/scss/styles.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/startbootstrap-creative-master/src/scss/variables/_colors.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/scss/variables/_colors.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/startbootstrap-creative-master/src/scss/variables/_spacing.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/scss/variables/_spacing.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/startbootstrap-creative-master/src/scss/variables/_typography.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/scss/variables/_typography.scss" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -29,8 +91,8 @@
       <recent name="$PROJECT_DIR$" />
     </key>
     <key name="MoveFile.RECENT_KEYS">
-      <recent name="$PROJECT_DIR$/startbootstrap-creative-master/dist" />
       <recent name="$PROJECT_DIR$" />
+      <recent name="$PROJECT_DIR$/startbootstrap-creative-master/dist" />
     </key>
   </component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
