@@ -36,12 +36,13 @@
 				<div class="col">
 					<h3>Project Showcase</h3>
 					<h5>Magic Square</h5>
-					<form onsubmit="getMagicSquare()" id="showcase"> 
+					<p><em>keep in mind output iterates through n^2. input should be small enough to avoid timing out.</em></p>
+					<form onsubmit="return getMagicSquare()" id="showcase"> 
 						<label for="matrix">Matrix Size: </label>
  						<input type="text" id="matrix" name="matrix"><br><br>
 						<input type="submit" value="Submit">
 					</form>
-					<p><span id='display'></span></p>
+					<p style="padding-top: 10px"><span id='display'></span></p>
 					<h3 style="padding-top: 20px";>Additional Projects</h3>
 					<ul>
 						<li><strong>Projects in C</strong></li>
@@ -58,23 +59,26 @@
 		<script>
 			function getMagicSquare(){
 				let size = document.getElementById("matrix").value;
-				/*if(size>=3){
-					let x = new Array(size);
+				let input = Math.floor(size);
+				if(input%2 == 1 && input>=3){
+					let x = new Array(input);
 					for (let i = 0; i < x.length; i++) {
-  						x[i] = new Array(size);
+  						x[i] = new Array(input);
 					}
 					for(let i=0;i<x.length;i++){
 						for(let j=0;j<x[i].length;j++){
 							x[i][j] = 0;
 						}
 					}
-					let n = size;
+					let n = input;
 					let row = 0
-					let col = n/2;
+					let col = Math.floor(n/2);
 					let nextRow = row;
 					let nextColumn = col;
+				//	document.getElementById('display').innerHTML = 2;
 					for(let j=1;j<=(n*n);j++){
 						//add to square
+					//	document.getElementById('display').innerHTML = j;
 						x[row][col] = j;
 						//calculate next array values
 						nextRow = row-1;
@@ -104,9 +108,23 @@
 						row = nextRow;
 						col = nextColumn;
 					}
-					alert("3");
-				}*/
-				 document.getElementById('display').innerHTML = "h";
+					let output = "";
+					for(let i=0;i<x.length;i++) {
+						for(let j=0;j<x[i].length;j++) {
+							//last one per row should not include comma
+							if(j == (size - 1)){
+								output = output.concat(x[i][j] + "<br>");
+							}else{
+    								output = output.concat(x[i][j] + ",");
+							}
+						}
+					}
+					document.getElementById('display').innerHTML = output;
+					
+				}else{
+					document.getElementById('display').innerHTML = "input must be >=3 and an even number";
+				}
+				return false;
 			}
 		</script>
 	</body>
