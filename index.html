@@ -1,5 +1,113 @@
+<!doctype html>
 <html>
+	<head>
+		<meta charset="UTF-8">
+		<meta name= "author" content="Juan Esparza">
+    		<meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+   		<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.3.1/dist/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+		<title>Junior's Portfolio</title>
+	</head>
 	<body>
-		<h1>Hello</h1>
+		<script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+		<script src="https://cdn.jsdelivr.net/npm/popper.js@1.14.7/dist/umd/popper.min.js" integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous"></script>
+		<script src="https://cdn.jsdelivr.net/npm/bootstrap@4.3.1/dist/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>
+		<div class="container">
+			<div class="row justify-content-md-center">
+				<div class="col-md-auto">
+					<h1>Junior's Portfolio</h1>
+				</div>
+			</div>
+		</div>
+		<div class="container mt-5">
+			<div class="row justify-content-md-center">
+				<div class="col">
+					<h3>About Me</h3>
+					<p>Hello! My name is Juan Esparza but my preferred name is Junior. I'm a first-generation college student majoring in computer engineering with a focus in machine learning. Aside from engineering I also aspire to become an entrepreneur/investor with specific interest in commercial real estate, stock market, and cryptocurrencies. By living and attending school in Mexico for over 5 years, I'm also a fluent spanish speaker and writer. I'm passionate about helping my community and first-generation college students as a peer leader at UW-Madison for All-In Milwaukee freshman. I'm also an advocate for equal access to education and hope to one day bring more technology/resources to Milwaukee and our small community in Mexico- <em> La Haciendita, GTO</em>.<br><br>I'm also working on creating a brand, <em>stay tuned...</em>.</p>
+				</div>
+			</div>
+			<div class="row justify-content-md-center">
+				<div class="col">
+					<h3>Education</h3>
+						<p><strong>University:</strong> University of Wisconsin - Madison<br><strong>Major:</strong> Computer Engineering: Machine Learning and Data Science B.S.<br><strong>GPA:</strong> 3.5</p>
+				</div>
+			</div>
+			<div class="row justify-content-md-center">
+				<div class="col">
+					<h3>Project Showcase</h3>
+					<h5>Magic Square</h5>
+					<form onsubmit="getMagicSquare()" id="showcase"> 
+						<label for="matrix">Matrix Size: </label>
+ 						<input type="text" id="matrix" name="matrix"><br><br>
+						<input type="submit" value="Submit">
+					</form>
+					<p><span id='display'></span></p>
+					<h3 style="padding-top: 20px";>Additional Projects</h3>
+					<ul>
+						<li><strong>Projects in C</strong></li>
+						<li><strong>Projects in Java</strong></li>
+					</ul>
+				</div>
+			</div>
+			<div class="row justify-content-md-center">
+                                <div class="col">
+					<p>Caught your interest? Please view my <a href="./2022_Resume.pdf">resume</a> to learn more!</p>
+                                </div>
+                        </div>
+		</div>
+		<script>
+			function getMagicSquare(){
+				let size = document.getElementById("matrix").value;
+				/*if(size>=3){
+					let x = new Array(size);
+					for (let i = 0; i < x.length; i++) {
+  						x[i] = new Array(size);
+					}
+					for(let i=0;i<x.length;i++){
+						for(let j=0;j<x[i].length;j++){
+							x[i][j] = 0;
+						}
+					}
+					let n = size;
+					let row = 0
+					let col = n/2;
+					let nextRow = row;
+					let nextColumn = col;
+					for(let j=1;j<=(n*n);j++){
+						//add to square
+						x[row][col] = j;
+						//calculate next array values
+						nextRow = row-1;
+						nextColumn = col+1;
+						if(nextRow >= n){
+							nextRow = 0;
+						}else if(nextRow < 0){
+							nextRow = (n-1);
+						}
+						if(nextColumn >= n){
+							nextColumn = 0;
+						}else if(nextColumn < 0){
+							nextColumn = (n-1);
+						}
+
+						// if not empty move one down
+						if(x[nextRow][nextColumn]!= 0){
+							nextRow = row + 1;
+							nextColumn = col;
+						}
+						if(nextRow >= n){
+							nextRow = 0;
+						}else if(nextRow < 0){
+							nextRow = (n-1);
+						}
+						//if not empty move down row, else set row and col to nr and nc
+						row = nextRow;
+						col = nextColumn;
+					}
+					alert("3");
+				}*/
+				 document.getElementById('display').innerHTML = "h";
+			}
+		</script>
 	</body>
 </html>
