@@ -76,10 +76,6 @@
 						<input type="submit" value="Submit">
 					</form>
 					<p style="padding-top: 10px"><span id='display'></span></p>
-					<h5>Can you catch me??</h5>
-					<div class="row" id="tank">
-						<div id="fish" onmouseover="chbg('red',true)" onmouseout="chbg('blue',false)" on></div>
-					</div>
 					<h3 style="padding-top: 20px">Additional Projects</h3>
 					<ul>
 						<li><strong>Projects in C</strong></li>
@@ -101,6 +97,9 @@
 				if(on){
 					fish.style.left = `${Math.ceil(Math.random() * 90)}%`;
     					fish.style.top = `${Math.ceil(Math.random() * 90)}%`;
+					let score = document.getElementById("score");
+					let num = parseInt(score.textContent) + 1;;
+					score.innerHTML=num;
 				}
 			}
 			function getMagicSquare(){
