@@ -1,6 +1,6 @@
 <!doctype html>
 <html>
-<head>
+	<head>
 		<meta charset="UTF-8">
 		<meta name= "author" content="Juan Esparza">
     		<meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
@@ -39,53 +39,140 @@
 </style>
 
    		<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.3.1/dist/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
-		<title>Junior's Portfolio</title>
-</head>
-<body>
+		<title>Jr's Portfolio</title>
+	</head>
+	<body style="background-color:lightblue">
 		<script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
 		<script src="https://cdn.jsdelivr.net/npm/popper.js@1.14.7/dist/umd/popper.min.js" integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous"></script>
 		<script src="https://cdn.jsdelivr.net/npm/bootstrap@4.3.1/dist/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>
-		<div class="container">
-			<div class="row justify-content-md-center">
-				<div class="col-md-auto">
-					<h1>Junior's Portfolio</h1>
-				</div>
-			</div>
-		</div>
-		<div class="container mt-5">
+<nav class="navbar navbar-expand-lg navbar-light" style="position:fixed;top:0;z-index:9999;background-color:white;width:100%">
+	<div class="container">
+  <a class="navbar-brand" href="#Home">Programming Portfolio</a>
+  <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+    <span class="navbar-toggler-icon"></span>
+  </button>
+  <div class="collapse navbar-collapse" id="navbarNav">
+    <ul class="navbar-nav">
+      <li class="nav-item">
+	      <a class="nav-link" href="#Home">Home</a>
+      </li>
+      <li class="nav-item">
+        <a class="nav-link" href="#Experience">Experience</a>
+      </li>
+      <li class="nav-item">
+        <a class="nav-link" href="#Projects">Projects</a>
+      </li>
+      <li class="nav-item">
+        <a class="nav-link" href="#Connect">Connect</a>
+      </li>
+    </ul>
+  </div>
+	</div>
+</nav>
+		<div class="container" id="Home" style="padding-top:70px">
 			<div class="row justify-content-md-center">
 				<div class="col">
 					<h3>About Me</h3>
-					<p>Hello! My name is Juan Esparza but my preferred name is Junior. I'm a first-generation college student majoring in computer engineering with a focus in machine learning. Aside from engineering I also aspire to become an entrepreneur/investor with specific interest in commercial real estate, stock market, and cryptocurrencies. By living and attending school in Mexico for over 5 years, I'm also a fluent spanish speaker and writer. I'm passionate about helping my community and first-generation college students as a peer leader at UW-Madison for All-In Milwaukee freshman. I'm also an advocate for equal access to education and hope to one day bring more technology/resources to Milwaukee and our small community in Mexico- <em> La Haciendita, GTO</em>.<br><br>I'm also working on creating a brand, <em>stay tuned...</em>.</p>
+					<p>Hello! My name is Juan Esparza but my preferred name is Junior. I'm a first-generation college student majoring in computer engineering with a focus in machine learning. Aside from engineering I also aspire to become an entrepreneur/investor with specific interest in commercial real estate, stock market, and cryptocurrencies. By living and attending school in Mexico for over 5 years, I'm also a fluent spanish speaker and writer. I'm passionate about helping my community and first-generation college students as a peer leader at UW-Madison for All-In Milwaukee freshman. I'm also an advocate for equal access to education and hope to one day bring more technology/resources to Milwaukee and our small community in Mexico- La Haciendita, GTO.<br><br><em>The html, css, and javascript utilized was all created from scratch. By using bootstrap I was able to make this webpage flexible with devices.</em></p>
 				</div>
 			</div>
+		</div>
+		<div class="container" id="Experience" style="padding-top:70px">
 			<div class="row justify-content-md-center">
 				<div class="col">
-					<h3>Education</h3>
+					<h4 style="padding-bottom:20px">Work Experience</h4>
+					<p><strong>Edison Software Engineering Intern @GE Healthcare<br><br>Software Engineering Intern @PKWARE<br><br>IT Operations & Service Desk @Robert W. Baird<br><br>IT Security Intern @Johnson Controls</strong></p>
+				</div>
+				<div class="col">
+					<h4 style="padding-bottom:20px">Education</h4>
 						<p><strong>University:</strong> University of Wisconsin - Madison<br><strong>Major:</strong> Computer Engineering: Machine Learning and Data Science B.S.<br><strong>GPA:</strong> 3.5</p>
 				</div>
 			</div>
+                        <div class="row justify-content-md-center" style="padding-top:20px">
+                                <div class="col">
+					<p><mark>Please view my <a href="./projects/images/2022_Resume.pdf">resume</a> to learn more.</mark></p>
+                                </div>
+                        </div>
+                </div>
+		</div>
+		<div class="container" id="Projects" style="padding-top:70px">
+			<div class="row justify-content-md-center" style="padding-bottom:30px">
+				<div class="col-4">
+					<h3><center>Projects<center></h3>
+				</div>
+			</div>
 			<div class="row justify-content-md-center">
 				<div class="col">
-					<h3>Project Showcase</h3>
 					<h5>Magic Square</h5>
-					<p><em>keep in mind output iterates through n^2. input should be small enough to avoid timing out.</em></p>
+					<p>Input must be odd and greater than 3. The output will create a matrix from numbers n - n<sub>2</sub>. A magic square occurs when every row, column, and diagnal adds to the same number</p>
+					<p>This project was translated from javascript from my original C implementation also shown below.<br><em>keep in mind output iterates through n<sup>2</sup>. input should be small enough to avoid timing out.</em></p>
 					<form onsubmit="return getMagicSquare()" id="showcase"> 
 						<label for="matrix">Matrix Size: </label>
  						<input type="text" id="matrix" name="matrix"><br><br>
 						<input type="submit" value="Submit">
 					</form>
-					<p style="padding-top: 10px"><span id='display'></span></p>
-					<h3 style="padding-top: 20px">Additional Projects</h3>
-					<ul>
-						<li><strong>Projects in C</strong></li>
-						<li><strong>Projects in Java</strong></li>
-					</ul>
+					<p style="padding-top: 10px"><strong><mark>output:</mark></strong><br><br><span id='display'></span></p>
 				</div>
 			</div>
 			<div class="row justify-content-md-center">
                                 <div class="col">
-					<p>Caught your interest? Please view my <a href="./images/2022_Resume.pdf">resume</a> to learn more!</p>
+					<h5>Magic Square (C Implementation)</h5>
+					<p style="padding-top:10px">This magic square implementation creates a magic square by starting in the center of the first row. It then iterates through to n<sub>2</sub> until the matrix is full. It moves one space up and one to the right wrapping around at the edges. If the spot is not empty, it iterates one row down. You can try tracing these steps by inputting a small value above and tracing this pattern.</p>
+					<img src="./projects/images/c/square/square.png" width="400" height="600">
+				</div>
+			</div>
+			<div class="row justify-content-md-center" style="padding-top:50px">
+                                <div class="col">
+                                        <h5>Sudoku Board Checker</h5>
+					<p>In this project we created a C program that would validate a text file to see if it contained a valid sudoku square. The text function required the size of the board followed by a newline and then the board. The board was comma seperated values from 0-9, 0 defining a spot as empty. Our program would then parse through the text file and check if the board that was given was valid. I have included a few screenshots of my own code completed for this project. </p>
+				</div>
+			</div>
+			<div class="row justify-content-md-center">
+                                <div class="col">
+					<img src="./projects/images/c/sudoku/main_ss.png" width="400" height="600">
+				</div>
+				<div class="col">
+					<p style="padding-top:50px">This main method first checks that the arguments passed to this executable are correct, then proceeds to create a 2D array reflecting the size of the board. It then reads the board passed as input to fill in the 2D array before passing it to the checker method shown below.</p>
+				</div>
+			</div>
+			<div class="row justify-content-md-center">
+                               	<div class="col">
+					<p style="padding-top:100px">This validator method first creates 0 new arrays for each iteration since it checks the column and the row simutaneously. It first checks that it contains a valid number. It then checks that the same index is empty in the designated column/row array. If it is not empty, it means we have found two of the same number in the same row/column. This project also required us to use array arithmetic instead of indexing. </p>		
+				</div>
+				<div class="col">
+					<img src="./projects/images/c/sudoku/board_validator_ss.png" width="400" height="600">
+				</div>
+                        </div>
+
+			<!--
+			<div class="row justify-content-md-center">
+                                <div class="col">
+                                        <h5>Cache Simulator</h5>
+                                </div>
+                        </div>
+			<div class="row justify-content-md-center">
+                                <div class="col">
+                                        <h5>Road Planner</h5>
+                                </div>
+                        </div>
+			<div class="row justify-content-md-center">
+                                <div class="col">
+                                        <h5>Movie Finder</h5>
+                                </div>
+                        </div>
+			<div class="row justify-content-md-center">
+                                <div class="col">
+                                        <h5>Book Loader</h5>
+                                </div>
+                        </div>
+			--> 
+
+		</div>
+		<div class="container" id="Connect" style="padding-top:70px">
+			<div class="row justify-content-md-center">
+                                <div class="col">
+					<h3>Connect</h3>
+					<p><strong>LinkedIn: <a href="https://www.linkedin.com/in/juan-esparza-768187206">Juan Esparza</a><br>Email: <a href="mailto: esparzadiaz@wisc.edu">esparzadiaz@wisc.edu</a></strong></p>
                                 </div>
                         </div>
 		</div>
@@ -172,5 +259,5 @@
 				return false;
 			}
 		</script>
-</body>
+	</body>
 </html>
