@@ -22,18 +22,13 @@
     <h1>Ya se enamoro?</h1>
 
     <!-- Yes and No buttons -->
-    <button onclick="expressLove('Yes')">Yes</button>
+    <button onclick="expressLove('Yes')">Si</button>
     <button id="noButton" onmouseover="moveRandom()">No</button>
 
     <script>
         function expressLove(response) {
             alert("Aaaa que no dijo que no queria nada serio...");
             // You can perform additional actions here if needed
-
-            if (response === 'Yes') {
-                var cuteImage = document.getElementById('cuteImage');
-                cuteImage.style.display = 'block';
-            }
         }
 
         function moveRandom() {
