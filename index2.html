@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Do You Love Me?</title>
+    <style>
+        body {
+            background-color: pink;
+            text-align: center;
+            padding-top: 100px;
+        }
+
+        button {
+            margin: 10px;
+            padding: 10px;
+            font-size: 16px;
+        }
+    </style>
+</head>
+<body>
+    <h1>Ya se enamoro?</h1>
+
+    <!-- Yes and No buttons -->
+    <button onclick="expressLove('Yes')">Yes</button>
+    <button id="noButton" onmouseover="moveRandom()">No</button>
+
+    <script>
+        function expressLove(response) {
+            alert("Aaaa que no dijo que no queria nada serio...");
+            // You can perform additional actions here if needed
+
+            if (response === 'Yes') {
+                var cuteImage = document.getElementById('cuteImage');
+                cuteImage.style.display = 'block';
+            }
+        }
+
+        function moveRandom() {
+            var noButton = document.getElementById('noButton');
+            var randomX = Math.floor(Math.random() * 200) - 100; // Adjust the range as needed
+            noButton.style.transform = 'translateX(' + randomX + 'px)';
+        }
+    </script>
+</body>
+</html>
